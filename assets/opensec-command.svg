@@ -1,112 +1,116 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">OpenSec command center</title>
-  <desc id="desc">Animated security intelligence dashboard showing repository analysis, agent triage, and patch generation.</desc>
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenSec security intelligence dashboard</title>
+  <desc id="desc">Animated OpenSec dashboard showing repository scanning, agent triage, vulnerability reasoning, and patch generation.</desc>
   <style>
-    .bg { fill: #020617; }
-    .grid { stroke: #123044; stroke-width: 1; opacity: .38; }
-    .panel { fill: #07111f; stroke: #164e63; stroke-width: 1.5; }
-    .panel2 { fill: #0b1220; stroke: #1d4ed8; stroke-width: 1.2; }
-    .title { fill: #e5f9ff; font: 700 28px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .label { fill: #94a3b8; font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .4px; }
-    .small { fill: #64748b; font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .metric { fill: #f8fafc; font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .panel { fill: #07111f; stroke: #164e63; stroke-width: 1.4; }
+    .card { fill: #0b1220; stroke: #2563eb; stroke-width: 1.2; }
+    .title { fill: #f8fafc; font: 800 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .subtitle { fill: #bae6fd; font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .label { fill: #94a3b8; font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .small { fill: #cbd5e1; font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .tiny { fill: #64748b; font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .metric { fill: #f8fafc; font: 800 24px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .accent { fill: #2dd4bf; }
     .blue { fill: #60a5fa; }
     .purple { fill: #a78bfa; }
-    .line { stroke: #2dd4bf; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 8 10; animation: dash 3.2s linear infinite; }
-    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
-    .pulse2 { animation: pulse 2.4s ease-in-out infinite .8s; transform-origin: center; }
-    .pulse3 { animation: pulse 2.4s ease-in-out infinite 1.4s; transform-origin: center; }
-    .scan { fill: url(#scan); opacity: .72; animation: scan 4s ease-in-out infinite; }
-    .bar1 { animation: bar 2.6s ease-in-out infinite; transform-origin: 0 100%; }
-    .bar2 { animation: bar 2.6s ease-in-out infinite .35s; transform-origin: 0 100%; }
-    .bar3 { animation: bar 2.6s ease-in-out infinite .7s; transform-origin: 0 100%; }
-    .bar4 { animation: bar 2.6s ease-in-out infinite 1.05s; transform-origin: 0 100%; }
-    .blink { animation: blink 1.2s steps(2, start) infinite; }
-    @keyframes dash { to { stroke-dashoffset: -72; } }
-    @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(.985); } 50% { opacity: 1; transform: scale(1.02); } }
-    @keyframes scan { 0%, 100% { transform: translateX(-120px); opacity: .1; } 50% { transform: translateX(470px); opacity: .7; } }
-    @keyframes bar { 0%, 100% { transform: scaleY(.42); opacity: .55; } 50% { transform: scaleY(1); opacity: 1; } }
-    @keyframes blink { 50% { opacity: .2; } }
+    .green { fill: #22c55e; }
+    .line { stroke: #2dd4bf; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 8 12; animation: dash 3.2s linear infinite; }
+    .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
+    .pulse2 { animation: pulse 2.2s ease-in-out infinite .55s; transform-origin: center; }
+    .pulse3 { animation: pulse 2.2s ease-in-out infinite 1.1s; transform-origin: center; }
+    .scan { fill: url(#scan); animation: scan 4s ease-in-out infinite; }
+    .bar1 { animation: bar 2.8s ease-in-out infinite; transform-origin: bottom; }
+    .bar2 { animation: bar 2.8s ease-in-out infinite .35s; transform-origin: bottom; }
+    .bar3 { animation: bar 2.8s ease-in-out infinite .7s; transform-origin: bottom; }
+    .blink { animation: blink 1.4s steps(2, start) infinite; }
+    @keyframes dash { to { stroke-dashoffset: -80; } }
+    @keyframes pulse { 0%, 100% { opacity: .55; transform: scale(.96); } 50% { opacity: 1; transform: scale(1.06); } }
+    @keyframes scan { 0%, 100% { transform: translateX(0); opacity: .2; } 50% { transform: translateX(450px); opacity: .9; } }
+    @keyframes bar { 0%, 100% { transform: scaleY(.45); opacity: .65; } 50% { transform: scaleY(1); opacity: 1; } }
+    @keyframes blink { 50% { opacity: .25; } }
   </style>
   <defs>
-    <linearGradient id="bgGlow" x1="0" x2="1200" y1="0" y2="430" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" x2="1200" y1="0" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
       <stop offset=".48" stop-color="#082f49"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0f172a"/>
     </linearGradient>
     <linearGradient id="scan" x1="0" x2="110" y1="0" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2dd4bf" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#2dd4bf" stop-opacity=".65"/>
+      <stop offset=".5" stop-color="#2dd4bf" stop-opacity=".75"/>
       <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <rect width="1200" height="430" rx="28" fill="url(#bgGlow)"/>
-  <g opacity=".65">
-    <path class="grid" d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
-    <path class="grid" d="M100 0V430M200 0V430M300 0V430M400 0V430M500 0V430M600 0V430M700 0V430M800 0V430M900 0V430M1000 0V430M1100 0V430"/>
+
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <g opacity=".28">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200" stroke="#93c5fd"/>
+    <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420" stroke="#93c5fd"/>
   </g>
 
-  <rect x="36" y="34" width="1128" height="362" rx="22" class="panel"/>
-  <rect x="62" y="62" width="470" height="104" rx="18" class="panel2"/>
-  <text x="88" y="102" class="title">OPENSEC COMMAND SURFACE</text>
-  <text x="90" y="132" class="label">repo intelligence -> triage -> patch</text>
-  <rect x="90" y="145" width="250" height="6" rx="3" fill="#164e63"/>
-  <rect class="scan" x="92" y="145" width="92" height="6" rx="3"/>
+  <rect x="46" y="34" width="1108" height="344" rx="24" class="panel"/>
 
-  <g transform="translate(62 196)">
-    <rect width="210" height="154" rx="18" class="panel2"/>
-    <text x="24" y="38" class="label">AEGIS</text>
-    <text x="24" y="76" class="metric">SAST + RAG</text>
-    <text x="24" y="105" class="small">program-flow reasoning</text>
-    <text x="24" y="128" class="small">exploitability analysis</text>
-    <circle cx="174" cy="40" r="10" class="accent pulse" filter="url(#glow)"/>
+  <g transform="translate(78 62)">
+    <rect width="470" height="86" rx="16" class="card"/>
+    <text x="24" y="36" class="title">OPENSEC COMMAND</text>
+    <text x="25" y="64" class="subtitle">repository intelligence -> agent triage -> patches</text>
+    <rect x="25" y="72" width="250" height="5" rx="3" fill="#164e63"/>
+    <rect class="scan" x="25" y="72" width="88" height="5" rx="3"/>
   </g>
 
-  <g transform="translate(304 196)">
-    <rect width="228" height="154" rx="18" class="panel2"/>
-    <text x="24" y="38" class="label">TRACEVUL</text>
-    <text x="24" y="76" class="metric">94,759</text>
-    <text x="24" y="105" class="small">canonical vulnerability records</text>
-    <text x="24" y="128" class="small">CVE -> code -> patch evidence</text>
-    <circle cx="190" cy="40" r="10" class="blue pulse2" filter="url(#glow)"/>
+  <g transform="translate(78 176)">
+    <rect width="218" height="132" rx="16" class="card"/>
+    <text x="22" y="34" class="label">AEGIS</text>
+    <text x="22" y="70" class="metric">SAST + RAG</text>
+    <text x="22" y="98" class="small">flow reasoning</text>
+    <text x="22" y="116" class="tiny">exploitability + remediation</text>
+    <circle cx="180" cy="34" r="9" class="accent pulse" filter="url(#glow)"/>
   </g>
 
-  <g transform="translate(584 62)">
-    <rect width="260" height="288" rx="18" class="panel2"/>
-    <text x="26" y="40" class="label">AGENT PIPELINE</text>
-    <circle cx="70" cy="92" r="27" fill="#0f766e" opacity=".3"/>
-    <circle cx="70" cy="92" r="12" class="accent pulse" filter="url(#glow)"/>
-    <circle cx="190" cy="150" r="27" fill="#1d4ed8" opacity=".3"/>
-    <circle cx="190" cy="150" r="12" class="blue pulse2" filter="url(#glow)"/>
-    <circle cx="83" cy="216" r="27" fill="#7c3aed" opacity=".3"/>
-    <circle cx="83" cy="216" r="12" class="purple pulse3" filter="url(#glow)"/>
-    <path d="M92 101C122 112 142 124 168 139" class="line"/>
-    <path d="M169 164C141 179 119 194 99 207" class="line"/>
-    <text x="34" y="268" class="small">retrieve . reason . validate . patch</text>
+  <g transform="translate(330 176)">
+    <rect width="218" height="132" rx="16" class="card"/>
+    <text x="22" y="34" class="label">TRACEVUL</text>
+    <text x="22" y="70" class="metric">94,759</text>
+    <text x="22" y="98" class="small">canonical records</text>
+    <text x="22" y="116" class="tiny">CVE -> code -> patch evidence</text>
+    <circle cx="180" cy="34" r="9" class="blue pulse2" filter="url(#glow)"/>
   </g>
 
-  <g transform="translate(884 62)">
-    <rect width="238" height="288" rx="18" class="panel2"/>
-    <text x="26" y="40" class="label">LIVE SIGNALS</text>
-    <text x="26" y="82" class="small">languages</text>
-    <rect x="30" y="103" width="24" height="105" rx="6" fill="#2dd4bf" class="bar1"/>
-    <rect x="72" y="82" width="24" height="126" rx="6" fill="#60a5fa" class="bar2"/>
-    <rect x="114" y="124" width="24" height="84" rx="6" fill="#a78bfa" class="bar3"/>
-    <rect x="156" y="96" width="24" height="112" rx="6" fill="#22c55e" class="bar4"/>
-    <text x="26" y="246" class="metric">AI + SEC</text>
-    <text x="26" y="272" class="small">systems that ship evidence</text>
+  <g transform="translate(600 62)">
+    <rect width="238" height="246" rx="16" class="card"/>
+    <text x="24" y="36" class="label">AGENT PIPELINE</text>
+    <circle cx="64" cy="88" r="24" fill="#0f766e" opacity=".36"/>
+    <circle cx="64" cy="88" r="11" class="accent pulse" filter="url(#glow)"/>
+    <circle cx="176" cy="126" r="24" fill="#2563eb" opacity=".36"/>
+    <circle cx="176" cy="126" r="11" class="blue pulse2" filter="url(#glow)"/>
+    <circle cx="92" cy="180" r="24" fill="#7c3aed" opacity=".36"/>
+    <circle cx="92" cy="180" r="11" class="purple pulse3" filter="url(#glow)"/>
+    <path d="M83 94C111 102 137 112 157 121" class="line"/>
+    <path d="M157 137C137 152 116 165 103 174" class="line"/>
+    <text x="24" y="224" class="small">retrieve . reason . validate</text>
   </g>
 
-  <g transform="translate(584 370)">
+  <g transform="translate(878 62)">
+    <rect width="228" height="246" rx="16" class="card"/>
+    <text x="24" y="36" class="label">LIVE SIGNALS</text>
+    <text x="24" y="70" class="small">security + ml + backend</text>
+    <rect x="35" y="128" width="28" height="82" rx="7" class="accent bar1"/>
+    <rect x="82" y="104" width="28" height="106" rx="7" class="blue bar2"/>
+    <rect x="129" y="146" width="28" height="64" rx="7" class="purple bar3"/>
+    <rect x="176" y="118" width="28" height="92" rx="7" class="green bar2"/>
+    <text x="24" y="102" class="metric">AI + SEC</text>
+    <text x="24" y="228" class="tiny">evidence-backed systems</text>
+  </g>
+
+  <g transform="translate(78 346)">
     <circle cx="0" cy="0" r="5" class="accent blink"/>
-    <text x="16" y="5" class="small">status: building agentic vulnerability intelligence</text>
+    <text x="16" y="5" class="tiny">status: building agentic vulnerability intelligence</text>
   </g>
 </svg>

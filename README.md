@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:020617,30:0f172a,65:0f766e,100:2563eb&text=Kushal%20Khemka&fontColor=ffffff&fontSize=58&animation=fadeIn&fontAlignY=38&desc=AI%20Security%20Builder%20%7C%20OpenSec%20Co-Founder%20%7C%20Agentic%20Vulnerability%20Intelligence&descAlignY=58&descSize=15" alt="Kushal Khemka profile banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,35:0f172a,70:0f766e,100:2563eb&text=Kushal%20Khemka&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=38&desc=AI%20Security%20Builder%20%7C%20OpenSec%20Co-Founder%20%7C%20Agentic%20Vulnerability%20Intelligence&descAlignY=58&descSize=15" alt="Kushal Khemka profile banner" />
 </p>
 
 <p align="center">
@@ -22,36 +22,34 @@
 
 ## Mission
 
-I build systems where AI agents reason over code, security evidence, and market-scale repositories. My current center of gravity is **OpenSec**, an AI-native OSS security platform for repository-scale vulnerability detection, triage, remediation, and secure code intelligence.
+I build systems where AI agents reason over code, security evidence, and large-scale repositories. My current center of gravity is **OpenSec**, an AI-native OSS security platform for vulnerability detection, triage, remediation, and secure code intelligence.
 
-<table>
-  <tr>
-    <td width="25%"><b>Primary lane</b><br />AI security agents</td>
-    <td width="25%"><b>Building</b><br />OpenSec, AEGIS, TRACEVUL</td>
-    <td width="25%"><b>Research</b><br />Adversarial ML at DRDO</td>
-    <td width="25%"><b>Base</b><br />Delhi, India</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Security-Agents-14b8a6?style=flat-square" alt="AI Security Agents" />
+  <img src="https://img.shields.io/badge/Building-OpenSec%20%7C%20AEGIS%20%7C%20TRACEVUL-2563eb?style=flat-square" alt="Building OpenSec AEGIS TRACEVUL" />
+  <img src="https://img.shields.io/badge/Research-Adversarial%20ML%20at%20DRDO-7c3aed?style=flat-square" alt="Adversarial ML at DRDO" />
+  <img src="https://img.shields.io/badge/Base-Delhi%2C%20India-0f172a?style=flat-square" alt="Delhi India" />
+</p>
 
 ## OpenSec Intelligence
 
 <table>
   <tr>
-    <td width="55%">
+    <td width="56%">
       <h3>OpenSec</h3>
       <p><b>From vulnerability to visibility.</b> We scan, triage, and remediate vulnerabilities in open-source repositories with AI-powered code intelligence.</p>
       <p><a href="https://opensec.in/">opensec.in</a> | <a href="https://github.com/Kushalkhemka/opensec">GitHub repo</a></p>
     </td>
-    <td width="45%">
+    <td width="44%">
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kushalkhemka&repo=opensec&theme=tokyonight&hide_border=true" alt="OpenSec repository card" />
     </td>
   </tr>
 </table>
 
-| System | What it does |
+| System | Signal |
 | --- | --- |
-| **AEGIS** | Repository-scale vulnerability detection and remediation using SAST signals, RAG code retrieval, program-flow reasoning, exploitability analysis, multi-agent triage, and automated patch generation. |
-| **TRACEVUL** | Context-resolved vulnerability corpus with 94,759 canonical records, 184K training samples, 19+ languages, 553 CWEs, and 6,192 OSS repositories. |
+| **AEGIS** | Repository-scale detection and remediation using SAST signals, RAG code retrieval, program-flow reasoning, exploitability analysis, multi-agent triage, and automated patch generation. |
+| **TRACEVUL** | 94,759 canonical vulnerability records, 184K training samples, 19+ languages, 553 CWEs, and 6,192 OSS repositories. |
 | **Reasoning LLM** | In-house Qwen 3.6 27B vulnerability reasoning model fine-tuned with RsLoRA SFT for detection-to-remediation workflows. |
 | **Security research** | 28 zero-day vulnerability candidates across 6 OSS repositories, including credited discovery of CVE-2026-42766 in OpenSSL, with accepted fixes in OpenSSL and Vim. |
 | **Grant** | INR 38 lakh Government of India grant for AI-native vulnerability detection and automated remediation. |
@@ -126,14 +124,13 @@ I build systems where AI agents reason over code, security evidence, and market-
   <img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,ts,bash,fastapi,flask,react,nextjs,nodejs,postgres,mongodb,redis,docker,linux,aws,gcp,pytorch,tensorflow,opencv,sklearn,git,github,postman" alt="Technology icons" />
 </p>
 
-```txt
-languages      Python, C++, C, Java, JavaScript, TypeScript, SQL, Bash
-ai/ml          PyTorch, TensorFlow, Hugging Face, scikit-learn, OpenCV, LangChain, RAG, AI agents
-security       SAST, SCA, DAST, Burp Suite, Ghidra, IDA, Splunk, Semgrep, CWE/CVE analysis
-backend/cloud  FastAPI, Flask, Docker, PostgreSQL, MongoDB, Redis, Linux, AWS, GCP
-```
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=900&center=true&vCenter=true&width=980&lines=Languages%3A+Python+%7C+C%2B%2B+%7C+Java+%7C+JavaScript+%7C+TypeScript+%7C+SQL+%7C+Bash;AI%2FML%3A+PyTorch+%7C+TensorFlow+%7C+Hugging+Face+%7C+OpenCV+%7C+LangChain+%7C+RAG+%7C+Agents;Security%3A+SAST+%7C+SCA+%7C+DAST+%7C+Burp+Suite+%7C+Ghidra+%7C+IDA+%7C+Semgrep+%7C+CWE%2FCVE;Backend%3A+FastAPI+%7C+Flask+%7C+Docker+%7C+PostgreSQL+%7C+MongoDB+%7C+Redis+%7C+AWS+%7C+GCP" alt="Animated stack details" />
+  </a>
+</p>
 
-## Proof
+## Highlights
 
 <table>
   <tr>
@@ -153,30 +150,16 @@ backend/cloud  FastAPI, Flask, Docker, PostgreSQL, MongoDB, Redis, Linux, AWS, G
 ## Live Signals
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Kushalkhemka&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Kushalkhemka&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kushalkhemka&theme=tokyonight" alt="GitHub profile details" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kushalkhemka&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top languages" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kushalkhemka&theme=tokyonight" alt="Repositories per language" />
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kushalkhemka&theme=tokyonight&utcOffset=5.5" alt="Productive time" />
 </p>
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kushalkhemka&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://raw.githubusercontent.com/Kushalkhemka/Kushalkhemka/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/kushalkhemka/">
-    <img width="48%" src="https://leetcard.jacoblin.cool/kushalkhemka?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode activity card" />
-  </a>
-  <a href="https://tryhackme.com/p/kushalkhemka">
-    <img width="48%" src="https://tryhackme-badges.s3.amazonaws.com/kushalkhemka.png" alt="TryHackMe badge" />
-  </a>
 </p>
 
 ## Repository Cards
@@ -197,16 +180,6 @@ backend/cloud  FastAPI, Flask, Docker, PostgreSQL, MongoDB, Redis, Linux, AWS, G
   <a href="https://github.com/Kushalkhemka/fashion-vton">
     <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Kushalkhemka&repo=fashion-vton&theme=tokyonight&hide_border=true" alt="Fashion VTON repo card" />
   </a>
-</p>
-
-## Contribution Trace
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kushalkhemka/Kushalkhemka/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kushalkhemka/Kushalkhemka/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Kushalkhemka/Kushalkhemka/output/github-contribution-grid-snake.svg" />
-  </picture>
 </p>
 
 ## Connect
