@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://opensec.in/"><img src="https://img.shields.io/badge/OpenSec-OSS%20Security%20Intelligence-14b8a6?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="OpenSec" /></a>
-  <a href="https://github.com/Kushalkhemka"><img src="https://img.shields.io/github/followers/Kushalkhemka?style=for-the-badge&logo=github&label=GitHub&color=181717" alt="GitHub followers" /></a>
+  <a href="https://github.com/Kushalkhemka"><img src="https://img.shields.io/badge/GitHub-Kushalkhemka-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://www.linkedin.com/in/kushalkh/"><img src="https://img.shields.io/badge/LinkedIn-kushalkh-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/kushalkhemka/"><img src="https://img.shields.io/badge/LeetCode-kushalkhemka-f89f1b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://tryhackme.com/p/kushalkhemka"><img src="https://img.shields.io/badge/TryHackMe-kushalkhemka-212c42?style=for-the-badge&logo=tryhackme&logoColor=red" alt="TryHackMe" /></a>
