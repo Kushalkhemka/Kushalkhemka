@@ -1,6 +1,6 @@
 from pathlib import Path
 from html import escape
-import math, shutil
+import math, shutil, json
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -14,6 +14,8 @@ for weight in (400, 500, 600, 700):
     fonts[weight] = instantiateVariableFont(TTFont(FONT), {'wght': weight})
 
 BG='#090b09'; FG='#f1f3ef'; MUTED='#aab4a5'; GREEN='#c5fa72'; LINE='#293126'
+snapshot = ASSETS / 'github-data.json'
+github_data = json.loads(snapshot.read_text()) if snapshot.exists() else {}
 
 class SVG:
     def __init__(self,w,h,title):
@@ -104,20 +106,25 @@ projects=[
 ('cloudchase','CloudChase','Predicting cloud cover from satellite imagery.',['Predicting cloud cover','from satellite imagery.'],'U-Net / INSAT-3DS / Nowcasting'),
 ('txnguard','TxnGuard','Turning transaction evidence into fraud intelligence.',['Turning transaction evidence','into fraud intelligence.'],'Multi-agent systems / Retrieval / AML'),
 ('vton','Virtual Try-On','Connecting pose, fit, and visual search.',['Connecting pose, fit,','and visual search.'],'Computer vision / OpenPose / Retrieval'),
-('leetcode','LeetCode','A practice in patterns, precision, and problem solving.',['A practice in patterns, precision,','and problem solving.'],'C++ / Algorithms / Data structures')]
+('leetcode','LeetCode','A practice in patterns, precision, and problem solving.',['A practice in patterns, precision,','and problem solving.'],'C++ / Algorithms / Data structures'),
+('dataset','Dataset Pipeline','The data engineering behind the intelligence.',['The data engineering','behind the intelligence.'],'Python / Data engineering')]
 for slug,name,desc,mobdesc,stack in projects:
     for mobile in (False,True):
-        w,h=(480,200) if mobile else (960,154)
-        s=SVG(w,h,f'{name} — {desc} {stack}. Open repository.')
+        w,h=(480,239) if mobile else (960,154)
+        meta=github_data.get('featured',{}).get(slug)
+        counts=f'{meta["stargazers_count"]} stars · {meta["forks_count"]} forks' if meta else ''
+        s=SVG(w,h,f'{name} — {desc} {stack}. {counts}. Open repository.')
         x=28 if mobile else 36
         s.text(name,x,53,32 if mobile else 34,FG,500,tracking=-.6)
         s.arrow(w-54,30)
         if mobile:
             for i,line in enumerate(mobdesc): s.text(line,x,96+28*i,21,MUTED)
-            s.text(stack,x,169,16,GREEN)
+            s.text(stack,x,169,18,GREEN)
+            if counts: s.text(counts,x,213,18,MUTED)
         else:
             s.text(desc,x,88,22,MUTED)
             s.text(stack,x,125,17,GREEN)
+            if counts: s.text(counts,690,125,18,MUTED)
         s.save(f'{slug}-mobile.svg' if mobile else f'{slug}.svg')
 
 for mobile in (False,True):

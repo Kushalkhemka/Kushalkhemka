@@ -41,29 +41,36 @@ I work across **AI, security, and software engineering** — from agents that re
 <a href="https://github.com/mayank-jangid-moon/CloudChase">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/cloudchase-mobile.svg">
-    <img src="assets/cloudchase.svg" width="100%" alt="CloudChase — Predicting cloud cover from satellite imagery. U-Net, INSAT-3DS, and nowcasting. Open repository.">
+    <img src="assets/cloudchase.svg" width="100%" alt="CloudChase — Predicting cloud cover from satellite imagery. U-Net, INSAT-3DS, and nowcasting. Open repository. GitHub: 1 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/txn-guard">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/txnguard-mobile.svg">
-    <img src="assets/txnguard.svg" width="100%" alt="TxnGuard — Turning transaction evidence into fraud intelligence. Multi-agent systems, retrieval, and AML. Open repository.">
+    <img src="assets/txnguard.svg" width="100%" alt="TxnGuard — Turning transaction evidence into fraud intelligence. Multi-agent systems, retrieval, and AML. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/fashion-vton">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/vton-mobile.svg">
-    <img src="assets/vton.svg" width="100%" alt="Virtual Try-On — Connecting pose, fit, and visual search. Computer vision, OpenPose, and retrieval. Open repository.">
+    <img src="assets/vton.svg" width="100%" alt="Virtual Try-On — Connecting pose, fit, and visual search. Computer vision, OpenPose, and retrieval. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/leetcode">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/leetcode-mobile.svg">
-    <img src="assets/leetcode.svg" width="100%" alt="LeetCode — A practice in patterns, precision, and problem solving. C++, algorithms, and data structures. Open repository.">
+    <img src="assets/leetcode.svg" width="100%" alt="LeetCode — A practice in patterns, precision, and problem solving. C++, algorithms, and data structures. Open repository. GitHub: 1 stars, 0 forks. Updated 2026-09-15.">
   </picture>
+</a>
+
+<a href="https://github.com/Kushalkhemka/dataset_pipelineV2">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/dataset-mobile.svg">
+  <img src="assets/dataset.svg" width="100%" alt="Dataset Pipeline — The data engineering behind the intelligence. Python and data engineering. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
+</picture>
 </a>
 
 <details>
@@ -77,23 +84,82 @@ I work across **AI, security, and software engineering** — from agents that re
 
 </details>
 
-## Recognition & research
+## Achievements & research
 
-- **National Winner · ISRO** — Bhartiya Antariksh Hackathon 2025.
-- **National Winner · NCIIPC / NTRO** — Startup India AI Grand Challenge, Stages 1 and 2.
-- **AI Research Intern · DRDO** — Adversarial ML for face verification systems.
-- **Research Head · AIMS-DTU** — Artificial Intelligence and Machine Learning Society.
+- <img src="assets/icons/trophy.svg" width="22" height="22" alt=""> **National Winner · ISRO** — Bhartiya Antariksh Hackathon 2025.
+- <img src="assets/icons/trophy.svg" width="22" height="22" alt=""> **National Winner · NCIIPC / NTRO** — Startup India AI Grand Challenge, Stages 1 and 2.
+- <img src="assets/icons/trophy.svg" width="22" height="22" alt=""> **Winner · BITS Pilani** — Coding Hackathon at APOGEE’25.
+- <img src="assets/icons/trophy.svg" width="22" height="22" alt=""> **Winner · DTU** — VisionX Hackathon at INVICTUS’25.
+- <img src="assets/icons/research.svg" width="22" height="22" alt=""> **AI Research Intern · DRDO** — Transfer-based black-box adversarial ML for face verification systems.
+- <img src="assets/icons/community.svg" width="22" height="22" alt=""> **Research Head · AIMS-DTU** — Artificial Intelligence and Machine Learning Society.
 
-<details>
-<summary><b>More highlights</b></summary>
+[GitHub achievements →](https://github.com/Kushalkhemka?tab=achievements)
 
-- **Winner:** Coding Hackathon at APOGEE’25, BITS Pilani.
-- **Winner:** VisionX Hackathon at INVICTUS’25, Delhi Technological University.
-- **Research focus at DRDO:** Transfer-based black-box adversarial attacks for face verification systems.
+## GitHub activity
 
-</details>
+<a href="https://github.com/Kushalkhemka?tab=repositories">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/github-stats-mobile.svg">
+  <img src="assets/github-stats.svg" width="100%" alt="GitHub activity: contributions in the last year, stars earned on my public non-fork repositories, public repositories, followers, repositories starred, and longest contribution streak. Dated public-data snapshot.">
+</picture>
+</a>
+
+<a href="https://github.com/Kushalkhemka?tab=overview">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/contributions-mobile.svg">
+  <img src="assets/contributions.svg" width="100%" alt="A year of contributions. Daily contribution counts from my public GitHub calendar; the mobile layout splits the year into two readable blocks.">
+</picture>
+</a>
+
+Stats refresh daily. **Stars earned** counts stars on my public, non-fork repositories; **repositories starred** counts projects I have starred. Contributions follow GitHub’s public calendar. [View the dated data snapshot](assets/github-data.json) · [Refresh status](https://github.com/Kushalkhemka/Kushalkhemka/actions/workflows/refresh-profile.yml)
 
 ## Tools of the trade
+
+**AI & ML**
+
+<p>
+  <img src="assets/icons/pytorch.svg" width="44" height="44" alt="PyTorch" title="PyTorch">
+  <img src="assets/icons/tensorflow.svg" width="44" height="44" alt="TensorFlow" title="TensorFlow">
+  <img src="assets/icons/opencv.svg" width="44" height="44" alt="OpenCV" title="OpenCV">
+  <img src="assets/icons/sklearn.svg" width="44" height="44" alt="scikit-learn" title="scikit-learn">
+</p>
+
+**Languages**
+
+<p>
+  <img src="assets/icons/python.svg" width="44" height="44" alt="Python" title="Python">
+  <img src="assets/icons/cpp.svg" width="44" height="44" alt="C++" title="C++">
+  <img src="assets/icons/c.svg" width="44" height="44" alt="C" title="C">
+  <img src="assets/icons/java.svg" width="44" height="44" alt="Java" title="Java">
+  <img src="assets/icons/js.svg" width="44" height="44" alt="JavaScript" title="JavaScript">
+  <img src="assets/icons/ts.svg" width="44" height="44" alt="TypeScript" title="TypeScript">
+  <img src="assets/icons/bash.svg" width="44" height="44" alt="Bash" title="Bash">
+</p>
+
+**Frameworks & data**
+
+<p>
+  <img src="assets/icons/fastapi.svg" width="44" height="44" alt="FastAPI" title="FastAPI">
+  <img src="assets/icons/flask.svg" width="44" height="44" alt="Flask" title="Flask">
+  <img src="assets/icons/react.svg" width="44" height="44" alt="React" title="React">
+  <img src="assets/icons/nextjs.svg" width="44" height="44" alt="Next.js" title="Next.js">
+  <img src="assets/icons/nodejs.svg" width="44" height="44" alt="Node.js" title="Node.js">
+  <img src="assets/icons/postgres.svg" width="44" height="44" alt="PostgreSQL" title="PostgreSQL">
+  <img src="assets/icons/mongodb.svg" width="44" height="44" alt="MongoDB" title="MongoDB">
+  <img src="assets/icons/redis.svg" width="44" height="44" alt="Redis" title="Redis">
+</p>
+
+**Cloud & developer tools**
+
+<p>
+  <img src="assets/icons/docker.svg" width="44" height="44" alt="Docker" title="Docker">
+  <img src="assets/icons/linux.svg" width="44" height="44" alt="Linux" title="Linux">
+  <img src="assets/icons/aws.svg" width="44" height="44" alt="AWS" title="AWS">
+  <img src="assets/icons/gcp.svg" width="44" height="44" alt="Google Cloud" title="Google Cloud">
+  <img src="assets/icons/git.svg" width="44" height="44" alt="Git" title="Git">
+  <img src="assets/icons/github.svg" width="44" height="44" alt="GitHub" title="GitHub">
+  <img src="assets/icons/postman.svg" width="44" height="44" alt="Postman" title="Postman">
+</p>
 
 **AI & ML** &nbsp; PyTorch · TensorFlow · Hugging Face · OpenCV · scikit-learn · LangChain · RAG
 
@@ -114,6 +180,13 @@ I work across **AI, security, and software engineering** — from agents that re
 
 </details>
 
+<a href="https://github.com/Kushalkhemka?tab=repositories">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/languages-mobile.svg">
+  <img src="assets/languages.svg" width="100%" alt="Languages by primary language of my public non-fork repositories. Repository counts, not lines of code.">
+</picture>
+</a>
+
 <br>
 
 <a href="https://www.linkedin.com/in/kushalkh/">
@@ -126,4 +199,8 @@ I work across **AI, security, and software engineering** — from agents that re
 <p align="center">
   <a href="https://www.linkedin.com/in/kushalkh/">Connect on LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://opensec.in/">Explore OpenSec</a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Kushalkhemka&style=flat-square&color=c5fa72&label=PROFILE+VIEWS" alt="Profile view counter">
 </p>
