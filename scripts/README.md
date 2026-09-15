@@ -1,6 +1,6 @@
 # Profile artwork
 
-The profile uses self-contained SVGs with separate desktop and mobile layouts. The README's `picture` elements select the mobile artwork below a 600px viewport width.
+The profile uses self-contained SVGs with separate desktop and mobile layouts. The README's `picture` elements select the mobile artwork at viewport widths up to 1000px, including GitHub’s narrow desktop profile column.
 
 ## Rebuild
 

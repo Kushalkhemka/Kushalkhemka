@@ -1,5 +1,5 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="assets/hero-mobile.svg">
   <img src="assets/hero.svg" width="100%" alt="Kushal Khemka — AI, security, and engineering. OpenSec co-founder. Delhi, India. DTU CSE ’28.">
 </picture>
 
@@ -16,7 +16,7 @@ I work across **AI, security, and software engineering** — from agents that re
 
 <a href="https://opensec.in/">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/opensec-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/opensec-mobile.svg">
     <img src="assets/opensec.svg" width="100%" alt="OpenSec — From vulnerability to visibility. AI-native security, from code context to reviewed fixes. Explore opensec.in.">
   </picture>
 </a>
@@ -40,35 +40,35 @@ I work across **AI, security, and software engineering** — from agents that re
 
 <a href="https://github.com/mayank-jangid-moon/CloudChase">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/cloudchase-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/cloudchase-mobile.svg">
     <img src="assets/cloudchase.svg" width="100%" alt="CloudChase — Predicting cloud cover from satellite imagery. U-Net, INSAT-3DS, and nowcasting. Open repository. GitHub: 1 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/txn-guard">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/txnguard-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/txnguard-mobile.svg">
     <img src="assets/txnguard.svg" width="100%" alt="TxnGuard — Turning transaction evidence into fraud intelligence. Multi-agent systems, retrieval, and AML. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/fashion-vton">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/vton-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/vton-mobile.svg">
     <img src="assets/vton.svg" width="100%" alt="Virtual Try-On — Connecting pose, fit, and visual search. Computer vision, OpenPose, and retrieval. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/leetcode">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/leetcode-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/leetcode-mobile.svg">
     <img src="assets/leetcode.svg" width="100%" alt="LeetCode — A practice in patterns, precision, and problem solving. C++, algorithms, and data structures. Open repository. GitHub: 1 stars, 0 forks. Updated 2026-09-15.">
   </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka/dataset_pipelineV2">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/dataset-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="assets/dataset-mobile.svg">
   <img src="assets/dataset.svg" width="100%" alt="Dataset Pipeline — The data engineering behind the intelligence. Python and data engineering. Open repository. GitHub: 0 stars, 0 forks. Updated 2026-09-15.">
 </picture>
 </a>
@@ -99,14 +99,14 @@ I work across **AI, security, and software engineering** — from agents that re
 
 <a href="https://github.com/Kushalkhemka?tab=repositories">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/github-stats-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="assets/github-stats-mobile.svg">
   <img src="assets/github-stats.svg" width="100%" alt="GitHub activity: contributions in the last year, stars earned on my public non-fork repositories, public repositories, followers, repositories starred, and longest contribution streak. Dated public-data snapshot.">
 </picture>
 </a>
 
 <a href="https://github.com/Kushalkhemka?tab=overview">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/contributions-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="assets/contributions-mobile.svg">
   <img src="assets/contributions.svg" width="100%" alt="A year of contributions. Daily contribution counts from my public GitHub calendar; the mobile layout splits the year into two readable blocks.">
 </picture>
 </a>
@@ -182,7 +182,7 @@ Stats refresh daily. **Stars earned** counts stars on my public, non-fork reposi
 
 <a href="https://github.com/Kushalkhemka?tab=repositories">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/languages-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="assets/languages-mobile.svg">
   <img src="assets/languages.svg" width="100%" alt="Languages by primary language of my public non-fork repositories. Repository counts, not lines of code.">
 </picture>
 </a>
@@ -191,7 +191,7 @@ Stats refresh daily. **Stars earned** counts stars on my public, non-fork reposi
 
 <a href="https://www.linkedin.com/in/kushalkh/">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/connect-mobile.svg">
+    <source media="(max-width: 1000px)" srcset="assets/connect-mobile.svg">
     <img src="assets/connect.svg" width="100%" alt="Let’s build something that matters. Connect with Kushal Khemka on LinkedIn.">
   </picture>
 </a>
