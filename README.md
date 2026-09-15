@@ -4,10 +4,11 @@
 </picture>
 
 <p align="center">
-  <a href="https://opensec.in/">OpenSec</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/kushalkh/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://leetcode.com/u/kushalkhemka/">LeetCode</a> &nbsp;·&nbsp;
-  <a href="https://tryhackme.com/p/kushalkhemka">TryHackMe</a>
+  <a href="https://www.linkedin.com/in/kushalkh/"><img src="assets/link-linkedin.svg" width="160" height="44" alt="LinkedIn — kushalkh"></a>
+  <a href="https://leetcode.com/u/kushalkhemka/"><img src="assets/link-leetcode.svg" width="160" height="44" alt="LeetCode — kushalkhemka"></a>
+  <a href="https://tryhackme.com/p/kushalkhemka"><img src="assets/link-tryhackme.svg" width="160" height="44" alt="TryHackMe — kushalkhemka"></a>
+  <a href="https://github.com/Kushalkhemka"><img src="assets/link-github.svg" width="160" height="44" alt="GitHub — Kushalkhemka"></a>
+  <a href="https://opensec.in/"><img src="assets/link-opensec.svg" width="160" height="44" alt="OpenSec — opensec.in"></a>
 </p>
 
 I work across **AI, security, and software engineering** — from agents that reason over code to satellite nowcasting, fraud intelligence, and computer vision. I’m co-building **OpenSec** and bringing research into working systems.
@@ -196,10 +197,22 @@ Stats refresh daily. **Stars earned** counts stars on my public, non-fork reposi
   </picture>
 </a>
 
+## Connect with me
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/kushalkh/">Connect on LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://opensec.in/">Explore OpenSec</a>
+  <a href="https://www.linkedin.com/in/kushalkh/"><img src="assets/link-linkedin.svg" width="160" height="44" alt="LinkedIn — kushalkh"></a>
+  <a href="https://leetcode.com/u/kushalkhemka/"><img src="assets/link-leetcode.svg" width="160" height="44" alt="LeetCode — kushalkhemka"></a>
+  <a href="https://tryhackme.com/p/kushalkhemka"><img src="assets/link-tryhackme.svg" width="160" height="44" alt="TryHackMe — kushalkhemka"></a>
+  <a href="https://github.com/Kushalkhemka"><img src="assets/link-github.svg" width="160" height="44" alt="GitHub — Kushalkhemka"></a>
+  <a href="https://opensec.in/"><img src="assets/link-opensec.svg" width="160" height="44" alt="OpenSec — opensec.in"></a>
 </p>
+
+- **LinkedIn:** [kushalkh](https://www.linkedin.com/in/kushalkh/)
+- **LeetCode:** [kushalkhemka](https://leetcode.com/u/kushalkhemka/)
+- **TryHackMe:** [kushalkhemka](https://tryhackme.com/p/kushalkhemka)
+- **GitHub:** [Kushalkhemka](https://github.com/Kushalkhemka)
+- **OpenSec:** [opensec.in](https://opensec.in/)
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Kushalkhemka&style=flat-square&color=c5fa72&label=PROFILE+VIEWS" alt="Profile view counter">

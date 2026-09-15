@@ -141,6 +141,13 @@ for mobile in (False,True):
         s.arrow(895,57)
     s.save('connect-mobile.svg' if mobile else 'connect.svg')
 
+for slug, label in [('linkedin', 'LinkedIn'), ('leetcode', 'LeetCode'), ('tryhackme', 'TryHackMe'), ('github', 'GitHub'), ('opensec', 'OpenSec')]:
+    s = SVG(160, 44, label + ' — open profile' if slug != 'opensec' else 'OpenSec — visit website')
+    s.raw(f'<rect x="0.5" y="0.5" width="159" height="43" rx="7" fill="#152010" stroke="#526b3b"/>')
+    s.text(label, 14, 28, 18, FG, 500)
+    s.raw(f'<path d="M133 28 L143 18 M133 18 H143 V28" stroke="{GREEN}" stroke-width="1.5" fill="none"/>')
+    s.save('link-' + slug + '.svg')
+
 license_text = (Path(__file__).parent/'fonts/OFL.txt').read_text()
 (ASSETS/'FONT-LICENSE.txt').write_text('\n'.join(line.rstrip() for line in license_text.splitlines())+'\n')
 print('Generated',len(list(ASSETS.glob('*.svg'))),'self-contained SVG assets')
